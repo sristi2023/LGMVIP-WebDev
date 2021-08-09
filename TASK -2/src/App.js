@@ -38,10 +38,12 @@ class App extends Component {
     return (<>
       <nav className="navbar navbar-expand-lg navbar-light">
           <div className="container-fluid">
-            <h3>LetsGrowMore</h3>
+            <h3>LGM APP</h3> 
+            <p><h1>Welcome to Our Community</h1></p>
             <button onClick={this.updateState}>Get Users</button>
           </div>
         </nav>
+      
       <Users loading={this.state.loading} users={this.state.users_data}/>
     </>
     )
